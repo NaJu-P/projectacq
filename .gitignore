@@ -1,0 +1,6 @@
+.vs/
+.vscode/
+*.sqlite
+*.vsidx
+Thumbs.db
+.DS_Store

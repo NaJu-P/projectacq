@@ -1,0 +1,275 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(14, 9, 20);
+  font-family: "Nerko One", (sans-serif);
+}
+
+button {
+  font-size: 16px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+.page-nav {
+  background-color: #6f8191;
+  border: 1px solid rgb(59, 213, 240);
+  position: relative;
+}
+
+.mensaje {
+  background-color: #58d68d;
+  width: 270px;
+  height: 50px;
+  top: 0;
+  right: 0;
+  position: sticky;
+  left: 100%;
+  text-align: right;
+  padding-left: 23px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  z-index: 200;
+  opacity: 0.9;
+  cursor: pointer;
+  transition: opacity 0.5s ease-in-out;
+  display: none;
+}
+
+.mensaje:hover {
+  text-decoration: underline;
+}
+
+.page-nav h1 {
+  margin: 24px;
+}
+
+.button-checkout {
+  background-color: white;
+  color: rgb(23, 53, 223);
+  border: 2px solid #008cba; /* Blue */
+  transition-duration: 0.4s;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  text-decoration: none;
+  padding: 6px 6px 6px 6px;
+  border-radius: 5px;
+}
+
+.button-checkout:hover {
+  background-color: #008cba; /* Blue */
+  color: white;
+  text-decoration: underline;
+}
+
+.page-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.product-container {
+  margin: 15px;
+  padding: 2px 16px;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.product-container:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.product-container img {
+  width: 400px;
+}
+
+.product-container h1 {
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+.titulo {
+  display: flex;
+}
+
+.descuento-precio {
+  text-decoration: line-through;
+}
+
+.opciones {
+  display: flex;
+  align-items: center; /* Para alinear verticalmente */
+  justify-content: space-between;
+}
+
+.image-container {
+  content: "";
+  width: 70px;
+  height: 70px;
+  position: relative;
+  background-size: cover;
+  background-image: url(../img/estrella.png);
+  margin-bottom: 12px;
+  filter: invert(94%) sepia(39%) saturate(2821%) hue-rotate(27deg)
+    brightness(100%) contrast(72%);
+  transform: rotate(5deg);
+}
+
+.image-container h2 {
+  color: white;
+  position: relative;
+  text-align: center;
+  z-index: 10;
+  font-size: 21px;
+  margin: 0;
+  padding: 25px 5px 5px 5px;
+}
+
+.image-container-1 {
+  content: "";
+  width: 70px;
+  height: 70px;
+  position: relative;
+  background-size: cover;
+  background-image: url(../img/estrella12.png);
+  margin-bottom: 12px;
+  filter: invert(14%) sepia(99%) saturate(4645%) hue-rotate(335deg)
+    brightness(76%) contrast(109%);
+  transform: rotate(-14deg);
+}
+
+.image-container-1 h2 {
+  color: white;
+  position: relative;
+  text-align: center;
+  z-index: 10;
+  font-size: 21px;
+  margin: 0;
+  padding: 25px 5px 5px 5px;
+}
+
+.button-add {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: 2px solid #4caf50; /* Green */
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  position: relative;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-style: outset;
+  border-image: initial;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 115px;
+  height: 52px;
+  margin: 5px;
+}
+
+.button-add:hover {
+  background-color: #161616; /* Green */
+  color: white;
+}
+
+.button-add input {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.button-add p {
+  text-align: center;
+  font-size: 16px;
+}
+
+table {
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+
+.boton {
+  position: absolute;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+
+.boton a {
+  width: 100px;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 13px;
+  border-radius: 8px;
+  color: black;
+  transition-duration: 0.4s;
+  border: solid 1px white;
+}
+
+.boton a:hover {
+  background-color: black;
+  color: white;
+  text-decoration: underline;
+}
+
+.btn-default {
+  width: 100px;
+  height: 40px;
+  background-color: blueviolet;
+  margin-left: 162px;
+  margin-top: 8px;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 15px;
+  color: black;
+  text-decoration: none;
+}
+
+.btn-default:hover {
+  background-color: antiquewhite;
+  text-decoration: underline;
+}
+
+.btn-primary {
+  background-color: blue;
+  display: flex;
+  width: 90px;
+  height: 52px;
+  position: relative;
+  border-radius: 10px;
+  left: 850px;
+  top: 10px;
+}
+
+.btn-primary:hover {
+  background-color: antiquewhite;
+  text-decoration: underline;
+}
+
+.btn-primary p {
+  left: 0;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.btn-primary input {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}

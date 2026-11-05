@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-image: url(fondo.jpg);
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 52px;
+    background: #aba9b1;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: rgb(1, 2, 4);
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+body {
+    background: rgb(13, 96, 205);
+}
+.body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.perfil{
+    transform: translate(10%, 5%);
+}
+.perfil label{
+    position: absolute;
+    top: 4%;
+    left: 5px;
+    transform: translate(10%, 4%);
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+    }
+    
+    section {
+        background: black;
+        color: #fff;
+        font-family: sans-serif;
+        width: 300px;
+        margin: 35px;
+    }
+    
+    .header {
+        margin: 0;
+        text-align: center;
+        font-size: 25px;
+        text-transform: uppercase;
+        padding: 10px;
+        } 
+    
+    .one {
+        background: aqua;
+     }
+    
+     .two {
+        background: aqua;
+    
+    }
+    
+    .cash span {
+        display: block;
+        font-size: 60px;
+    
+    }
+    
+    ul li {
+        list-style-type: none;
+        text-align:center;
+        border-bottom: 1px solid #000;
+        padding: 10px;
+        font-size: 18px;
+     }
+    
+     ul li a {
+        text-decoration: none;
+        color: #000;
+        background: #fff;
+        font-style: 20px;
+        text-transform: uppercase;
+        display: block;
+        padding: 10px;
+        }
+    
+        li a:hover {
+            background: rgb(103, 23, 232);
+            color:#fff
+    }
+  
